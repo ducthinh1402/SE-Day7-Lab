@@ -1,0 +1,14 @@
+@startuml
+Manager --> (Room manage)
+Manager --> (Create report)
+Saller --> (Book a room)
+Saller --> (Cancel a booking)
+Receptionist --> (Book a room)
+Receptionist --> (Cancel a booking)
+Receptionist --> (Checkin)
+Receptionist --> (Checkout)
+Client --> (Book a room)
+Client --> (Cancel a booking)
+Client --> (Checkin)
+Client --> (Checkout)
+@enduml
